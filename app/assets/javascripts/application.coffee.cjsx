@@ -1,9 +1,12 @@
 #= require jquery
-#= require jquery_ujs
-#= require turbolinks
 #= require react
-#= require_self
+#= require fixed-data-table
+#= require_tree ./mixins
+#= require_tree ./components
+
+@Table = FixedDataTable.Table
+@Column = FixedDataTable.Column
 
 @ReactRoot = document.getElementById('csv-creator-app')
 
-React.render <h1>Hello Example!</h1>, ReactRoot
+React.render <ZombiesTable/>, ReactRoot
