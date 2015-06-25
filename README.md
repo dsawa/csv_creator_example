@@ -5,7 +5,7 @@ can be used in rails.
 
 To try out:
 
-* `git clone git@github.com:dsawa/csv_creator_example.git'
+* `git clone git@github.com:dsawa/csv_creator_example.git`
 * `cd csv_creator_example`
 * `bundle install`
 * `rake db:migrate`
