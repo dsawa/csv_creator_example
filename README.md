@@ -8,6 +8,7 @@ To try out:
 
 * `git clone git@github.com:dsawa/csv_creator_example.git`
 * `cd csv_creator_example`
+* `mv config/database.yml.sample config/database.yml`
 * `bundle install`
 * `rake db:migrate`
 * `rake db:seed`
